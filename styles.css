@@ -1,0 +1,33 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#main-container > #inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#main-container > #inner-container > #blue-container{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: #0032A0;
+}
+#main-container > #inner-container > #blue-container > img{
+    position: absolute;
+    top: -65px;
+    left: 105px;
+}
+#main-container > #inner-container > #white-box{
+    height: 200px;
+    width: 800px;
+    background-color: white;
+}
+#main-container > #red-box{
+    height: 200px;
+    width: 1200px;
+    background-color: #DA291C;
+}
